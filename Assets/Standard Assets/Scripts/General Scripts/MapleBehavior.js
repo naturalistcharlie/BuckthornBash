@@ -2,6 +2,7 @@
 var TreeMature : float = 30.0;
 var SeedFreq : float = 5.0;
 
+var SeedOrigin : Transform;
 var seedSpread : float = 10;
 var trunkSize : float = 1;
 var projectile : Rigidbody;
@@ -18,12 +19,12 @@ var projectile : Rigidbody;
 
 	
 function LaunchProjectile () {
-		instance = Instantiate(projectile,gameObject.transform.position,Quaternion.identity);
+		instance = Instantiate(projectile,SeedOrigin.transform.position,Quaternion.identity);
 		instance.velocity = Random.insideUnitSphere * 5;
 }
 
 
-function OnCollisionStay(collision : Collision)
+function OnCollisionEnter(collision : Collision)
 {
     // If plant A and plant B collide, and they both use
     // PlantHitPlantDie2.js, they'll both have OnCollisionStay called
@@ -53,7 +54,7 @@ function OnCollisionStay(collision : Collision)
 }
 
 //Basic collision detection checking for two differently named objects
-function OnCollisionEnter(theCollision : Collision){
+function OnCollisionEnterOther(theCollision : Collision){
  if(theCollision.gameObject.name == "Top"){
   Debug.Log("Hit the ceiling");
     Destroy(gameObject);

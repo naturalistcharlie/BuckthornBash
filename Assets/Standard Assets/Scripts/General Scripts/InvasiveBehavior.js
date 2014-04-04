@@ -1,10 +1,12 @@
 ﻿var seedPrefab: Transform;
 var lowrand : float = 1.0;
 var hirand : float = 30.0;
-
+var SeedOrigin : Transform;
 
 function Start () {
-        GerminationCycle();
+ 	var timeTillGermination : float = Random.Range(lowrand, hirand); // X to Y seconds
+Invoke("GerminationCycle", timeTillGermination);
+       
 }
 
 function GerminationCycle () {
@@ -18,7 +20,7 @@ function GerminationCycle () {
 }
 
 function SeedDrop () {
- var newseed = Instantiate(seedPrefab,gameObject.transform.position,Quaternion.identity);
+ var newseed = Instantiate(seedPrefab,SeedOrigin.transform.position,Quaternion.identity);
 	// seedPrefab.rigidbody.AddForce(transform.forward * 5);      // Drop your seed.
         //
         // Your CODE
@@ -26,7 +28,7 @@ function SeedDrop () {
 
 
 
-function OnCollisionStay(collision : Collision)
+function OnCollisionEnter(collision : Collision)
 {
     // If plant A and plant B collide, and they both use
     // PlantHitPlantDie2.js, they'll both have OnCollisionStay called
@@ -41,6 +43,14 @@ function OnCollisionStay(collision : Collision)
     	collision.gameObject.tag = "destroyedPlant";
         Destroy(collision.gameObject);
         Debug.Log("Destroying invasive plant because of collision.");
+    }
+     if (collision.gameObject != null
+        && collision.gameObject.tag == "rabbitpoop"
+        && gameObject.tag == "invasive")
+    {
+        Destroy(collision.gameObject);
+        Destroy(gameObject);
+        Debug.Log("Blam! You killed a buckthorn!");
     }
 }
 
