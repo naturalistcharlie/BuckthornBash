@@ -53,6 +53,8 @@ function OnCollisionEnter(collision : Collision)
     
 }
 
+// testing commiting in git.
+
 //Basic collision detection checking for two differently named objects
 function OnCollisionEnterOther(theCollision : Collision){
  if(theCollision.gameObject.name == "Top"){
