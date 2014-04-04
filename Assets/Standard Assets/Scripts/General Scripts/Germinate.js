@@ -4,7 +4,7 @@ var GermLow = 30;
 var GermHigh = 50;
 
 
-
+//look at me!!!!!!!!!
 
 function OnCollisionEnter (collision : Collision) {
 if(collision.gameObject.tag == "dirt"){
