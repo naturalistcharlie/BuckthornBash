@@ -41,7 +41,7 @@ function OnCollisionEnter(collision : Collision)
         && gameObject.tag == "invasive")
     {
     	collision.gameObject.tag = "destroyedPlant";
-        Destroy(collision.gameObject);
+        Destroy(gameObject);
         Debug.Log("Destroying invasive plant because of collision.");
     }
      if (collision.gameObject != null
@@ -53,4 +53,3 @@ function OnCollisionEnter(collision : Collision)
         Debug.Log("Blam! You killed a buckthorn!");
     }
 }
-

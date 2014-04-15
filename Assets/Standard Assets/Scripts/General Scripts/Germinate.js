@@ -1,5 +1,4 @@
-﻿
-var treePrefab: Transform;
+﻿var treePrefab: Transform;
 var GermLow = 30;
 var GermHigh = 50;
 
@@ -13,11 +12,11 @@ if(collision.gameObject.tag == "dirt"){
 	 Invoke("PlantTree", timeTillGermination);
 }
 }
-	
+
 
 function PlantTree () {
-	
-		
+
+
         // if (collision.gameObject.tag == "dirt"){
                 
                 var newtree = Instantiate(treePrefab,gameObject.transform.position,Quaternion.identity); //plant the tree

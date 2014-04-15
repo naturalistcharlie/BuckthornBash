@@ -12,12 +12,12 @@ var projectile : Rigidbody;
 	// Starting in TreeMature seconds.
 	// a projectile will be launched every SeedFreq seconds
 
-	
+
 	//function SeedDrop () {
 	InvokeRepeating("LaunchProjectile", TreeMature, SeedFreq);
 //	}
 
-	
+
 function LaunchProjectile () {
 		instance = Instantiate(projectile,SeedOrigin.transform.position,Quaternion.identity);
 		instance.velocity = Random.insideUnitSphere * 5;
@@ -52,8 +52,6 @@ function OnCollisionEnter(collision : Collision)
     
     
 }
-
-// testing commiting in git.
 
 //Basic collision detection checking for two differently named objects
 function OnCollisionEnterOther(theCollision : Collision){
