@@ -51,7 +51,7 @@
 							Quaternion.identity);
 							//bullet.gameObject.tag = "enemyProjectile"; ///TAG TO MAKE RABBIT SPIN only here temp.
 
-	bullet.rigidbody.AddForce(transform.forward * 5000);
+	bullet.rigidbody.AddForce(transform.forward * 1000);
 	}
 
 	}
@@ -62,10 +62,11 @@
 
 		if(dead)
 			{
-			transform.position = Vector3(0,4,0);     // RESPAWNS
-			gameObject.find("Main Camera").transform.position = Vector3(0,4,-10);
+			transform.position = Vector3(860,25,860);     // RESPAWNS
+			//gameObject.find("Main Camera").transform.position = Vector3(870,15,870);
 			dead=false;
 			}
+			
 		if (gotHit)
 		{
 			if(tumbleSpeed < 1)

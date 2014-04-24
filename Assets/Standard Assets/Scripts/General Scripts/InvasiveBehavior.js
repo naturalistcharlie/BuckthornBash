@@ -40,7 +40,7 @@ function OnCollisionEnter(collision : Collision)
         && collision.gameObject.tag == "invasive"
         && gameObject.tag == "invasive")
     {
-    	collision.gameObject.tag = "destroyedPlant";
+        Destroy(collision.gameObject);
         Destroy(gameObject);
         Debug.Log("Destroying invasive plant because of collision.");
     }
@@ -50,6 +50,20 @@ function OnCollisionEnter(collision : Collision)
     {
         Destroy(collision.gameObject);
         Destroy(gameObject);
-        Debug.Log("Blam! You killed a buckthorn!");
+        //Debug.Log("Blam! You killed a buckthorn!");
+    }
+      if (collision.gameObject != null
+        && collision.gameObject.tag == "nativeseed"
+        && gameObject.tag == "invasive")
+    {
+        Destroy(collision.gameObject);
+        Debug.Log("native seed destroyed by invasive.");
+    }
+      if (collision.gameObject != null
+        && collision.gameObject.tag == "plant"
+        && gameObject.tag == "invasive")
+    {
+        Destroy(collision.gameObject);
+        Debug.Log("native tree outcompeted by invasive.");
     }
 }

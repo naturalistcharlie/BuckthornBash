@@ -1,4 +1,4 @@
-﻿var seedPrefab: Transform;
+var seedPrefab: Transform;
 var TreeMature : float = 30.0;
 var SeedFreq : float = 5.0;
 
@@ -36,17 +36,14 @@ function OnCollisionEnter(collision : Collision)
         && collision.gameObject.tag == "plant"
         && gameObject.tag == "plant")
     {
-    	collision.gameObject.tag = "destroyedPlant";
         Destroy(collision.gameObject);
-        Debug.Log("Destroying tree because of collision.");
     }
     
         if (collision.gameObject != null
         && collision.gameObject.tag == "invasive"
-        && gameObject.tag == "invasive")
+        && gameObject.tag == "plant")
     {
-    	collision.gameObject.tag = "destroyedPlant";
-        Destroy(collision.gameObject);
+        Destroy(gameObject);
         Debug.Log("Destroying tree because of invasive species.");
     }
     

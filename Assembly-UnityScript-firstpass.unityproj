@@ -61,6 +61,7 @@
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\GrowTree.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\HealthControl.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\InvasiveBehavior.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\InvasiveSeed.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\KillMeOverTime.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\MapleBehavior.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\SeedTurret.js" />
