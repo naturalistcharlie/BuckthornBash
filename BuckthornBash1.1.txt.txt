@@ -1,0 +1,12 @@
+BUCKTHORN BASH 1.1
+PRE-PRE-PRE-PRE RELEASE PSEUDO-PLAYABLE VERSION
+
+Welcome to the pre-pre-pre-pre release of the new 3d BUCKTHORN BASH!
+
+You are a rabbit on a small island in Lake Champlain. The island has spruce, hemlock, cherry, and maple trees... and common buckthorn, an invasive species. The plants all grow, produce seeds, and die. each seed is produced randomly, so the plants won't always act the same way. The idea is that the spreading buckthorn, left unchecked, would crowd out the other trees and take over. However, before it gets to this point, the current form of buckthorn slows down the game enough to make it unplayable. So your goal: manage the buckthorn such that it doesn't slow down your computer too much.
+
+How do you do this? Easy! You aren't any ordinary rabbit. You are a rabbit whos poop kills buckthorn instead of fertillizing it! Move the rabbit with the W, A, and D keys, and press space to shoot rabbit poop. I'll leave it up to you to figure out what the buckthorn looks like and how to dmanage it, if at all. You can also just quit the game if it gets too slow, by closing the window or if really slowing dwn press control-alt-delete and closing the game.
+
+The magical rabbit can't swim. In theory, if it falls in the water it is reincarnated elsewhere, but sometimes, due to another bug, the rabbit dies and ends up just laying there while trees and buckthorn grow around over its head. Not fun at that point, so you'll probably want to restart.
+
+This is just a demo. After fixing the bugs I plan to add a lot more - more species, more invasives, more thing the rabbit can do, different islands, you name it. If you have ideas let me know! 

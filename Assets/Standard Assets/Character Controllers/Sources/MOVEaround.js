@@ -5,6 +5,7 @@
 
 	//shooting
 	var bulletPrefab: Transform;  
+	var shootPrefab: Transform;
 
 	//dying
 	private var dead = false;  //bunny doesn't start dead
@@ -34,7 +35,6 @@
 	function Update () 
 	{
 		var controller : CharacterController = GetComponent(CharacterController);
-
 		// Rotate around y - axis
 		transform.Rotate(0, Input.GetAxis ("Horizontal") * rotateSpeed, 0);
 
@@ -52,6 +52,16 @@
 							//bullet.gameObject.tag = "enemyProjectile"; ///TAG TO MAKE RABBIT SPIN only here temp.
 
 	bullet.rigidbody.AddForce(transform.forward * 1000);
+	}
+	
+if(Input.GetButtonDown("Fire1"))
+	{
+	var shoot = Instantiate(shootPrefab, //shooting the little rabbit turds
+							GameObject.Find("SpawnPoint").transform.position, 
+							Quaternion.identity);
+							//bullet.gameObject.tag = "enemyProjectile"; ///TAG TO MAKE RABBIT SPIN only here temp.
+
+	shoot.rigidbody.AddForce(transform.forward * 500);
 	}
 
 	}

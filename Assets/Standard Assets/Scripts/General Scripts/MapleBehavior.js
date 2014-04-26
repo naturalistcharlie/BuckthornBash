@@ -36,7 +36,7 @@ function OnCollisionEnter(collision : Collision)
         && collision.gameObject.tag == "plant"
         && gameObject.tag == "plant")
     {
-        Destroy(collision.gameObject);
+        Destroy(gameObject);
     }
     
         if (collision.gameObject != null
