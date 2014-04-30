@@ -2,13 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\General Scripts\Pesticide.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\MOVEaround.js" Line="70" Column="1" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\Germinate.js" Line="1" Column="22" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\MapleBehavior.js" Line="2" Column="1" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\InvasiveBehavior.js" Line="47" Column="2" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\InvasiveSeed.js" Line="6" Column="9" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\Seedy.js" Line="22" Column="31" />
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\Pesticide.js" Line="37" Column="50" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\Germinate.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\MapleBehavior.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\InvasiveBehavior.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\InvasiveSeed.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\Seedy.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\Pesticide.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
