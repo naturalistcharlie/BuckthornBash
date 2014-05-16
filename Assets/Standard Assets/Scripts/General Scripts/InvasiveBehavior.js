@@ -2,10 +2,12 @@
 var lowrand : float = 1.0;
 var hirand : float = 30.0;
 var SeedOrigin : Transform;
+var dynamic : GameObject;
 
 function Start () {
  	var timeTillGermination : float = Random.Range(lowrand, hirand); // X to Y seconds
 Invoke("GerminationCycle", timeTillGermination);
+	dynamic = GameObject.Find("Dynamic GameObjects");
        
 }
 
@@ -22,6 +24,7 @@ function GerminationCycle () {
 function SeedDrop () {
  var newseed = Instantiate(seedPrefab,SeedOrigin.transform.position,Quaternion.identity);
 	// seedPrefab.rigidbody.AddForce(transform.forward * 5);      // Drop your seed.
+	newseed.parent = dynamic.transform;
         //
         // Your CODE
 }

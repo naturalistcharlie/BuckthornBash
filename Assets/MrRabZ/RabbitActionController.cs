@@ -8,12 +8,12 @@ public class RabbitActionController : MonoBehaviour {
 	private Animator animator;
 	private CharacterController controller;
 
-	private int hashHit = Animator.StringToHash("Base Layer.Hit");
-	private int hashDead = Animator.StringToHash("Base Layer.Dead");
-	private int hashWalk = Animator.StringToHash("Base Layer.Walk");
-	private int hashJump = Animator.StringToHash("Base Layer.Jump");
-	private int hashPick = Animator.StringToHash("Base Layer.Pick");
-	private int hashPunch = Animator.StringToHash("Base Layer.Punch");
+	//private int hashHit = Animator.StringToHash("Base Layer.Hit");
+	//private int hashDead = Animator.StringToHash("Base Layer.Dead");
+//	private int hashWalk = Animator.StringToHash("Base Layer.Walk");
+	//private int hashJump = Animator.StringToHash("Base Layer.Jump");
+	//private int hashPick = Animator.StringToHash("Base Layer.Pick");
+	//private int hashPunch = Animator.StringToHash("Base Layer.Punch");
 
 	// Use this for initialization
 	void Start () {
@@ -22,33 +22,33 @@ public class RabbitActionController : MonoBehaviour {
 	}
 
 
-	void OnGUI()
-	{
-		if (GUI.Button(new Rect(10, 10, 150, 40), "Punch"))
-		{
-			animator.Play(hashPunch);
-		}
+	//void OnGUI()
+	//{
+	//	if (GUI.Button(new Rect(10, 10, 150, 40), "Punch"))
+	//	{
+	//		animator.Play(hashPunch);
+	//	}
 
-		if (GUI.Button(new Rect(10, 60, 150, 40), "Dead"))
-		{
-			animator.Play(hashDead);
-		}
+	//	if (GUI.Button(new Rect(10, 60, 150, 40), "Dead"))
+	//	{
+	//		animator.Play(hashDead);
+	//	}
 
-		if (GUI.Button(new Rect(10, 110, 150, 40), "Pick up"))
-		{
-			animator.Play(hashPick);
-		}
+	//	if (GUI.Button(new Rect(10, 110, 150, 40), "Pick up"))
+	//	{
+	//		animator.Play(hashPick);
+	//	}
 
-		if (GUI.Button(new Rect(10, 160, 150, 40), "Get Hit"))
-		{
-			animator.Play(hashHit);
-		}
+	//	if (GUI.Button(new Rect(10, 160, 150, 40), "Get Hit"))
+	//	{
+	//		animator.Play(hashHit);
+	//	}
 
-		if (GUI.Button(new Rect(10, 210, 150, 40), "Jump"))
-		{
-			animator.Play(hashJump);
-		}
-	}
+	//	if (GUI.Button(new Rect(10, 210, 150, 40), "Jump"))
+	//	{
+		//	animator.Play(hashJump);
+		//}
+	//}
 	
 	// Update is called once per frame
 	void Update () {

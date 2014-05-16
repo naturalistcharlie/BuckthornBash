@@ -11,8 +11,11 @@ if(collision.gameObject.tag == "dirt"){
   				//Debug.Log("Seed hits the dirt");
 	 Invoke("PlantTree", timeTillGermination);
 }
+if(collision.gameObject.tag == "rabbitpoop"){
+Debug.Log("baby tree is fertillized");
+Invoke("PlantTree", 0);
 }
-
+}
 
 function PlantTree () {
 

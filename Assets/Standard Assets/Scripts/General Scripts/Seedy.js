@@ -12,6 +12,8 @@ function Start () {
         GerminationCycle();
 }
 
+
+
 function SeedDrop () {
  var newseed = Instantiate(seedPrefab,gameObject.transform.position,Quaternion.identity);
 	// seedPrefab.rigidbody.AddForce(transform.forward * 5);      // Drop your seed.

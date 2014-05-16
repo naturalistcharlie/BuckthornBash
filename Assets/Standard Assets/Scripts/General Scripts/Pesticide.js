@@ -11,7 +11,7 @@ var projectile : Rigidbody;
         && collision.gameObject.tag == "invasive"
         && gameObject.tag == "pesticide")
          {
-        Destroy(gameObject);
+      
         Destroy(collision.gameObject);
         }
         
@@ -20,7 +20,15 @@ var projectile : Rigidbody;
         && collision.gameObject.tag == "plant"
         && gameObject.tag == "pesticide")
          {
-        Destroy(gameObject);
+        
+        Destroy(collision.gameObject);
+        }
+        
+           if (collision.gameObject != null
+        && collision.gameObject.tag == "nativeseed"
+        && gameObject.tag == "pesticide")
+         {
+       
         Destroy(collision.gameObject);
         }
  

@@ -46,8 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BuckthornPopulation.js" />
+     <Compile Include="Assets\BuckthornSeedPopulation.js" />
      <Compile Include="Assets\PoopShooter.js" />
+     <Compile Include="Assets\Population.js" />
+     <Compile Include="Assets\PopulationMember.js" />
      <Compile Include="Assets\TreeCrap.js" />
+     <Compile Include="Assets\Wind.js" />
+     <Compile Include="Assets\WindControl.js" />
+     <Compile Include="Assets\rooting.js" />
      <None Include="Assets\MrRabZ\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>
