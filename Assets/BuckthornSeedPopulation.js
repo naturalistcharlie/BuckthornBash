@@ -1,19 +1,19 @@
 ﻿#pragma strict
 
 //public class BuckthornSeedPopulation extends Population {
-public static var population : int;
-public var Count : int;
+public static var seedpopulation : int;
+public var CountSeed : int;
 
 function Start () {
-		population++;
+		seedpopulation++;
 }
 
 function Update () {
-	Count = population;
+	CountSeed = seedpopulation;
 }
 
 function OnDestroy() {
-		population--;
+		seedpopulation--;
 }
 
 //}

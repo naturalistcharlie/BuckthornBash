@@ -3,6 +3,7 @@ var lowrand : float = 1.0;
 var hirand : float = 30.0;
 var SeedOrigin : Transform;
 var dynamic : GameObject;
+var maxseed : float = 400;
 
 function Start () {
  	var timeTillGermination : float = Random.Range(lowrand, hirand); // X to Y seconds
@@ -12,6 +13,11 @@ Invoke("GerminationCycle", timeTillGermination);
 }
 
 function GerminationCycle () {
+    
+//    GetComponent(BuckthornSeedPopulation).seedpopulation;
+//    if (BuckthornSeedPopulation.seedpopulation <= maxseed) 
+       
+     	{
         SeedDrop();
 
         // Set up a new timer for the next germination.
@@ -19,9 +25,16 @@ function GerminationCycle () {
 
         // This will call itself in [X, Y] seconds.
         Invoke("GerminationCycle", timeTillGermination);
+        }
+//        
+//        else;
+//        {
+//        Invoke("GerminationCycle", timeTillGermination);
+//        }
 }
 
 function SeedDrop () {
+
  var newseed = Instantiate(seedPrefab,SeedOrigin.transform.position,Quaternion.identity);
 	// seedPrefab.rigidbody.AddForce(transform.forward * 5);      // Drop your seed.
 	newseed.parent = dynamic.transform;
