@@ -48,22 +48,44 @@
   <ItemGroup>
      <Compile Include="Assets\BuckthornPopulation.js" />
      <Compile Include="Assets\BuckthornSeedPopulation.js" />
+     <Compile Include="Assets\Cherrypopulation.js" />
+     <Compile Include="Assets\Hemlockpopulation.js" />
+     <Compile Include="Assets\Maplepopulation.js" />
      <Compile Include="Assets\PoopShooter.js" />
      <Compile Include="Assets\Population.js" />
      <Compile Include="Assets\PopulationMember.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\MOVEaround.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\AcerGerminate.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\Germinate.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\GrowTree.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\HealthControl.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\InvasiveBehavior.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\InvasiveSeed.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\KillMeOverTime.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\MapleBehavior.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\Pesticide.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\SeedTurret.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\Seedspin.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\Seedy.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\TreeOverpopulation.js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\TurretDerive (copy).js" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\drown.js" />
+     <Compile Include="Assets\Sprucepopulation.js" />
      <Compile Include="Assets\TreeCrap.js" />
      <Compile Include="Assets\Wind.js" />
      <Compile Include="Assets\WindControl.js" />
      <Compile Include="Assets\rooting.js" />
      <None Include="Assets\MrRabZ\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{CF6DDD7B-3F4D-5E2D-EFA1-22641BCA2447}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+     <None Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,7 +7,9 @@ var maxseed : float = 400;
 var maxbuckthorn : float = 200;
 
 function Start () {
- 	var timeTillGermination : float = Random.Range(lowrand, hirand); // X to Y seconds
+ 	var timeTillGermination : float = Random.Range(lowrand, hirand); // X to Y seconds {
+
+		
 Invoke("GerminationCycle", timeTillGermination);
 	dynamic = GameObject.Find("Dynamic GameObjects");
        
@@ -23,7 +25,7 @@ function GerminationCycle () {
 
   // This looks good.
   
-// testing removal of this:  if (BuckthornSeedPopulation.seedpopulation <= maxseed)
+if (BuckthornSeedPopulation.seedpopulation <= maxseed)
   {
     SeedDrop();
 
@@ -33,34 +35,7 @@ function GerminationCycle () {
     // This will call itself in [X, Y] seconds.
     Invoke("GerminationCycle", timeTillGermination);
   }
-  /* Problem: The semi-colon after "else" is an issue.  Normally we expect that
 
-     if (A) {
-       doB();
-     } else {
-       doC();
-     }
-
-     If A is true, run doB(), otherwise doC(); Which is what we want,
-     let's say.  However, that semi-colon changes it to read like
-     this:
-
-     if (A) {
-       doB();
-     } else;
-
-     {
-       doC();
-     }
-
-     If A is true, run doB(). Then run doC() regardless of what A is.
-
-     However, even if that is fixed, I don't why the code still isn't working.
-     Are you getting errors or just the wrong behavior?
-  */
-
-  //else;
-//  else
   {
     var timeTillGermination2 : float = Random.Range(lowrand, hirand); // X to Y seconds
 

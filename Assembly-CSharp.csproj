@@ -47,14 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MrRabZ\RabbitActionController.cs" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\Group.cs" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\GroupMember.cs" />
+     <Compile Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <None Include="Assets\MrRabZ\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CF6DDD7B-3F4D-5E2D-EFA1-22641BCA2447}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{D9DD089C-C310-8039-205D-4EB873DD8AF4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+     <None Include="Assets\Prefabs\Unused_Prefabs\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

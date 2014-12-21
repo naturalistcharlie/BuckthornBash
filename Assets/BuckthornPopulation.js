@@ -1,19 +1,19 @@
 ﻿#pragma strict
 
 //public class BuckthornPopulation extends Population {
-public static var population : int;
+public static var buckthornpopulation : int;
 public var Count : int;
 
 function Start () {
-		population++;
+		buckthornpopulation++;
 }
 
 function Update () {
-	Count = population;
+	Count = buckthornpopulation;
 }
 
 function OnDestroy() {
-		population--;
+		buckthornpopulation--;
 }
 
 //}

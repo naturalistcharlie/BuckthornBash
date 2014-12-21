@@ -1,0 +1,83 @@
+-target:library
+-i:UnityEngine
+-i:System.Collections
+-base:UnityEngine.MonoBehaviour
+-nowarn:BCW0016
+-nowarn:BCW0003
+-method:Main
+-out:Temp/Assembly-UnityScript.dll
+-x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-debug
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-i:UnityEditor
+Assets/BuckthornPopulation.js
+Assets/BuckthornSeedPopulation.js
+Assets/Cherrypopulation.js
+Assets/Hemlockpopulation.js
+Assets/Maplepopulation.js
+Assets/PoopShooter.js
+Assets/Population.js
+Assets/PopulationMember.js
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Character Controllers/Sources/MOVEaround.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/Camera Scripts/MouseOrbit.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/Camera Scripts/SmoothFollow.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/AcerGerminate.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/DragRigidbody.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/Germinate.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/GrowTree.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/HealthControl.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/InvasiveBehavior.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/InvasiveSeed.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/KillMeOverTime.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/MapleBehavior.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/Pesticide.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/SeedTurret.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/Seedspin.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/Seedy.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/TreeOverpopulation.js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/TurretDerive (copy).js"
+"Assets/Prefabs/Unused_Prefabs/Standard Assets/Scripts/General Scripts/drown.js"
+Assets/Sprucepopulation.js
+Assets/TreeCrap.js
+Assets/Wind.js
+Assets/WindControl.js
+Assets/rooting.js
