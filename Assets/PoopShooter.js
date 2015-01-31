@@ -39,6 +39,7 @@
 	var bullet = Instantiate(bulletPrefab, //shooting the little pesticides
 							poopspawn.position, 
 							Quaternion.identity);
+								CharliesUtil.Organize(bullet);
 							//bullet.gameObject.tag = "enemyProjectile"; ///TAG TO MAKE RABBIT SPIN only here temp.
 
 	bullet.rigidbody.AddForce(transform.forward * 10);
@@ -49,6 +50,7 @@ if(Input.GetButtonDown("Fire1"))
 	var shoot = Instantiate(shootPrefab, //shooting the little rabbit turds
 							pestspawn.position,
 							Quaternion.identity);
+							CharliesUtil.Organize(shoot);
 							//bullet.gameObject.tag = "enemyProjectile"; ///TAG TO MAKE RABBIT SPIN only here temp.
 
 	shoot.rigidbody.AddForce(transform.forward * 500);

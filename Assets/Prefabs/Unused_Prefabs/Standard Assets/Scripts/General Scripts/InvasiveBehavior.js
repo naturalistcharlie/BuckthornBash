@@ -24,8 +24,8 @@ function GerminationCycle () {
 
 
   // This looks good.
-  
-if (BuckthornSeedPopulation.seedpopulation <= maxseed)
+  if (Group.GetGroup("BuckthornSeed").count <= maxseed)
+//if (BuckthornSeedPopulation.seedpopulation <= maxseed)
   {
     SeedDrop();
 
@@ -48,7 +48,7 @@ function SeedDrop () {
 
  var newseed = Instantiate(seedPrefab,SeedOrigin.transform.position,Quaternion.identity);
 	// seedPrefab.rigidbody.AddForce(transform.forward * 5);      // Drop your seed.
-	newseed.parent = dynamic.transform;
+	  CharliesUtil.Organize(newseed);
         //
         // Your CODE
 }

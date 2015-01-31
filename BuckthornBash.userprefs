@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BuckthornSeedPopulation.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\TestInterface\Assets\Scripts\ActiveStateToggler.cs">
     <Files>
-      <File FileName="Assets\WindControl.js" Line="11" Column="10" />
-      <File FileName="Assets\BuckthornSeedPopulation.js" Line="16" Column="20" />
-      <File FileName="Assets\BuckthornPopulation.js" Line="12" Column="30" />
-      <File FileName="Assets\Prefabs\Unused_Prefabs\Standard Assets\Scripts\General Scripts\InvasiveBehavior.js" Line="28" Column="1" />
+      <File FileName="..\..\TestInterface\Assets\Scripts\ActiveStateToggler.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

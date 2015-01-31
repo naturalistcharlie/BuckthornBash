@@ -23,6 +23,7 @@ function PlantTree () {
         // if (collision.gameObject.tag == "dirt"){
                 
                 var newtree = Instantiate(treePrefab,gameObject.transform.position,Quaternion.identity); //plant the tree
+                CharliesUtil.Organize(newtree);
                 //transform.position = Vector3(0,0,0);  
                 // TODO: Mark (x, z) as taken by a tree, so we don’t overcrowd.
                 DestroyImmediate(gameObject);                      

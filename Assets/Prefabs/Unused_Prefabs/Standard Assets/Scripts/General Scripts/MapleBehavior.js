@@ -19,8 +19,9 @@ var projectile : Rigidbody;
 
 
 function LaunchProjectile () {
-		instance = Instantiate(projectile,SeedOrigin.transform.position,Quaternion.identity);
+		var instance = Instantiate(projectile,SeedOrigin.transform.position,Quaternion.identity);
 		instance.velocity = Random.insideUnitSphere * 5;
+			  CharliesUtil.Organize(instance.transform);
 }
 
 
