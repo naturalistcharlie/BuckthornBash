@@ -10,6 +10,9 @@
 	var dead = false;  //bunny doesn't start dead
 
 
+
+	
+
 	function OnControllerColliderHit (hit : ControllerColliderHit)
 
 	{
